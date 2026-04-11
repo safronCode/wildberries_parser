@@ -1,0 +1,14 @@
+[secrets]
+cookie = "*"
+
+[payload]
+dest = "moscow"
+lang = "ru"
+query = "юбка"
+resultset = "catalog"
+
+[io-settings]
+file_format = "xlsx"
+file_name = "parsedData"
+file_path = "./parsed_data"
+max_records_value = 100
