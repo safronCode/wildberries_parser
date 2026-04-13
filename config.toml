@@ -2,7 +2,7 @@
 cookie = "*"
 
 [payload]
-dest = "moscow"
+dest = 1
 lang = "ru"
 query = "юбка"
 resultset = "catalog"
@@ -11,4 +11,4 @@ resultset = "catalog"
 file_format = "xlsx"
 file_name = "parsedData"
 file_path = "./parsed_data"
-max_records_value = 100
+max_records_value = 200

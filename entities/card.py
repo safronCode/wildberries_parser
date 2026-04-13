@@ -22,3 +22,11 @@ class ProductCard:
 
     description: str = ""
     options: dict[str, str] = field(default_factory=dict)
+
+    @property
+    def price_per_size_str(self) -> str:
+        return "\n".join(f"size {size} - {price} р" for size, price in self.price_per_size.items())
+
+    @property
+    def options_str(self) -> str:
+        return "\n".join(f"{key}: {value}" for key, value in self.options.items())
